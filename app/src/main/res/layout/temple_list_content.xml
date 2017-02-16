@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/list"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Temple"
+        android:id="@+id/txt_temple_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+       android:layout_marginRight="25dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/orange_arrow"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/orangeDark"></View>
+
+</LinearLayout>
